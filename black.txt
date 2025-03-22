@@ -3,18 +3,18 @@
 !
 
 # 以下huawei search && browser
-hisearch-drcn.dt.dbankcloud.com
-uc-drcn.hispace.dbankcloud.cn
-connect-drcn.hispace.hicloud.com
-adx-drcn.op.dbankcloud.cn
-hisearch-static-drcn.dbankcdn.com
-||configserver.hicloud.com
-||configserver.platform.hicloud.com
-||configdownload.dbankcdn.cn
-||browsercfg-drcn.cloud.dbankcloud.cn
+||hisearch-drcn.dt.dbankcloud.com^
+||uc-drcn.hispace.dbankcloud.cn^
+||connect-drcn.hispace.hicloud.com^
+||adx-drcn.op.dbankcloud.cn^
+||hisearch-static-drcn.dbankcdn.com^
+||configserver.hicloud.com^
+||configserver.platform.hicloud.com^
+||configdownload.dbankcdn.cn^
+||browsercfg-drcn.cloud.dbankcloud.cn^
 # 以上huawei search && browser
 # 不记得拦截啥了
-||ulogs.umeng.com^$important
+||ulogs.umeng.com^
 # 不记得拦截啥了
 # 以下拦截油管广告
 /googleads.$~script,domain=~googleads.github.io
@@ -22,8 +22,8 @@ hisearch-static-drcn.dbankcdn.com
 ||google.com/pagead/
 ||static.doubleclick.net^$domain=youtube.com
 ||youtube.com/get_midroll_
-||safebrowsing.googleapis-cn.com
-||doubleclick.net
+||safebrowsing.googleapis-cn.com^
+||doubleclick.net^
 #以上拦截油管广告
 #以下拦截FanZhaCenter的过度关心
 ||tracking.miui.com^
@@ -36,13 +36,35 @@ hisearch-static-drcn.dbankcdn.com
 ||apininstaller.xiaomi.com^
 ##以上拦截FanZhaCenter的过度关心
 # 以下拦截网易易盾号码认证
-ye.dun.163yun.com
+||ye.dun.163yun.com^
 # 以上拦截网易易盾号码认证
 # 以下拦截袤博秒验
-log-verify.mob.com
-cdn-api-verify.mob.com
-cache-verify.mob.com
+||log-verify.mob.com^
+||cdn-api-verify.mob.com^
+||cache-verify.mob.com^
 # 以上拦截袤博秒验
-
-
-
+# 以下拦截中国移动
+||config.cmpassport.com^
+||www.cmpassport.com^
+||wap.cmpassport.com^
+||onekey1.cmpassport.com^
+||log1.cmpassport.com^
+||smsks1.cmpassport.com^
+||verify.cmpassport.com^
+# 以上拦截中国移动
+# 以下拦截中国联通
+||opencloud.wostore.cn^
+||auth.wosms.cn^
+||id.mail.wo.cn^
+||mdn.open.wo.cn^
+||hmrz.wo.cn^
+||nishub1.10010.com^
+||enrichgw.10010.com^
+# 以上拦截中国联通
+# 以下拦截中国电信
+||id6.me^
+||open.e.189.cn^
+# 以上拦截中国电信
+# 以下拦截中国广电
+||Idk.^
+# 以上拦截中国广电
