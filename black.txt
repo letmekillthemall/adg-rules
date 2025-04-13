@@ -2,6 +2,11 @@
 ! Last modified: 2025-03-22 14:35
 !
 
+# 禁用B站的垃圾PCDN
+||*pcdn*.biliapi.net^$important
+||mcdn.bilivideo.com^$important
+||mcdn.bilivideo.cn^$important
+||szbdyd.com^$important
 # 以下huawei search && browser
 ||hisearch-drcn.dt.dbankcloud.com^
 ||uc-drcn.hispace.dbankcloud.cn^

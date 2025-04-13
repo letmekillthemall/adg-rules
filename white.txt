@@ -2,13 +2,17 @@
 ! Last modified: 2025-03-22 14:35
 !
 # 以下放行B站
-@@||*bilivideo.*^$important
+# 禁用B站的垃圾PCDN
+# @@||*szbdyd.com^$important
+# @@||*.biliapi.*^$important
+# B站官方CDN upos-sz-mirror****.bilivideo.com
+@@||upos*.bilivideo.com^$important
+# B站自建CDN cn-****-dx-v-****.bilivideo.com
+@@||cn-*.bilivideo.com^$important
 @@||*akamaized.net^$important
 @@||*hdslb.com^$important
 @@||*bilibili.com^$important
-@@||*szbdyd.com^$important
 @@||*bilicdn*.com^$important
-@@||*.biliapi.*^$important
 @@||*biligame.*^$important
 @@||inapps.appsflyer.com^$important
 # 以上放行B站
