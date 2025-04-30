@@ -1,6 +1,9 @@
 ! Title: letme's white list
 ! Last modified: 2025-03-22 14:35
 !
+# 以下放行B站空降助手
+@@||*bsbsb.top^$important
+# 以上放行B站空降助手
 # 以下放行B站
 # 禁用B站的垃圾PCDN
 # @@||*szbdyd.com^$important
