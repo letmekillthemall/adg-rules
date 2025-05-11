@@ -2,6 +2,9 @@
 ! Last modified: 2025-03-22 14:35
 !
 
+# 以下屏蔽去哪儿网app强制升级
+||minislugger.qunar.com^$important
+# 以上屏蔽去哪儿网app强制升级
 # 以下禁用B站的垃圾PCDN
 ||*pcdn*.biliapi.net^$important
 # 以下屏蔽后PiliPala(第三方B站客户端)无法使用，只能先放行
