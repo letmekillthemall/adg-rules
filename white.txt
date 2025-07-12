@@ -16,6 +16,7 @@
 @@||mcdn.bilivideo.com^$important
 @@||mcdn.bilivideo.cn^$important
 # 以上屏蔽后PiliPala(第三方B站客户端)无法使用，只能先放行
+@@||bvc.bilivideo.com^$important #第三方B站客户端的高能弹幕条
 @@||*akamaized.net^$important
 @@||*hdslb.com^$important
 @@||*bilibili.com^$important
@@ -62,6 +63,19 @@
 @@||union.chinalifeonline.com.cn^$important
 @@||cdn.wwads.cn^$important
 # 以上放行中行信用卡
+# 以下放行自己网站dns.allen-vincent.space
+@@||_38443._https.dns.allen-vincent.space^$important
+@@||_28443._https.dns.allen-vincent.space^$important
+# 以上放行自己网站dns.allen-vincent.space
+# 以下放行什么值得买
+@@||s-api.smzdm.com^$important
+@@||user-api.smzdm.com^$important
+@@||homepage-api.smzdm.com^$important
+@@||common-api.smzdm.com^$important
+@@||haojia-api.smzdm.com^$important
+@@||dingyue-api.smzdm.com^$important
+@@||www.smzdm.com^$important
+# 以上放行什么值得买
 
 # 摘自https://raw.githubusercontent.com/afwfv/DD-AD/main/rule/DD-AD.txt
 !-------------白名单---------------
